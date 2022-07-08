@@ -901,10 +901,10 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 awful.spawn.with_shell("picom &")
 
 --Wallpaper utility (nitrogen):
-awful.spawn.with_shell("nitrogen --restore --set-zoom-fill ~/Pictures/Wallpapers &")
+awful.spawn.with_shell("nitrogen --restore --set-zoom-fill &")
 
 --Keyboard layout (with Xmodmap):
---awful.spawn.with_shell("[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap")
+awful.spawn.with_shell("[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap")
 
 --Internet connection tray applet (nm-applet):
 awful.spawn.with_shell("nm-applet &")
