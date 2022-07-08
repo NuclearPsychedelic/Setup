@@ -1,0 +1,4 @@
+[2022-07-08 16:24:06.669] [main] [info] update#setState idle
+[2022-07-08 16:24:07.511] [main] [info] Starting extension host with pid 48472 (fork() took 20 ms).
+[2022-07-08 16:24:15.399] [main] [info] Waiting for extension host with pid 48472 to exit.
+[2022-07-08 16:24:15.405] [main] [info] Extension host with pid 48472 exited with code: 0, signal: null.

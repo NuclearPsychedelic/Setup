@@ -1,0 +1,11 @@
+[2022-04-22 18:13:54.218] [exthost] [info] Extension host with pid 14087 started
+[2022-04-22 18:13:54.253] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-22 18:13:54.255] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-22 18:13:54.256] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-22 18:13:54.283] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-22 18:13:54.291] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-22 18:13:54.308] [exthost] [info] Eager extensions activated
+[2022-04-22 18:13:54.321] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-22 18:13:54.326] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-22 18:19:43.645] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-22 18:19:43.647] [exthost] [info] Extension host with pid 14087 exiting with code 0

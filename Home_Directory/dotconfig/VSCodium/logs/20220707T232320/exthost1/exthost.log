@@ -1,0 +1,26 @@
+[2022-07-07 23:23:22.001] [exthost] [info] Extension host with pid 18654 started
+[2022-07-07 23:23:22.002] [exthost] [info] Skipping acquiring lock for /home/nick/.config/VSCodium/User/workspaceStorage/81ed8fa9d9de7ff1d81adaf43bc08ca9.
+[2022-07-07 23:23:22.043] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-07 23:23:22.045] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-07 23:23:22.047] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-07 23:23:22.049] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2022-07-07 23:23:22.117] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-07 23:23:22.134] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-07 23:23:22.160] [exthost] [info] Eager extensions activated
+[2022-07-07 23:23:22.201] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-07 23:23:22.206] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-07 23:42:06.174] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-07 23:42:06.373] [exthost] [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 't'
+    |     property '_readableState' -> object with constructor 'M'
+    |     property 'pipes' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 't.ConsoleForElectron'
+    --- property 'parent' closes the circle
+    at JSON.stringify (<anonymous>)
+    at /home/nick/.vscode-oss/extensions/vscodevim.vim-1.23.1/src/register/register.ts:333:16
+    at runMicrotasks (<anonymous>)
+    at process.async (node:internal/process/task_queues:96:5)
+    at Object.e.deactivate (/home/nick/.vscode-oss/extensions/vscodevim.vim-1.23.1/extension.ts:64:8)
+    at async Promise.all (index 7)
+    at g._deactivateAll (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:88:10669)
+[2022-07-07 23:42:06.373] [exthost] [info] Extension host with pid 18654 exiting with code 0

@@ -1,0 +1,10 @@
+[2022-07-07 14:46:15.611] [main] [info] update#setState idle
+[2022-07-07 14:46:17.445] [main] [info] Starting extension host with pid 11506 (fork() took 25 ms).
+[2022-07-07 14:46:45.612] [main] [info] update#setState checking for updates
+[2022-07-07 14:46:45.904] [main] [info] update#setState idle
+[2022-07-07 14:50:28.630] [main] [info] Extension host with pid 11506 exited with code: 0, signal: null.
+[2022-07-07 14:50:29.174] [main] [info] Starting extension host with pid 12274 (fork() took 9 ms).
+[2022-07-07 15:46:45.635] [main] [info] update#setState checking for updates
+[2022-07-07 15:46:46.102] [main] [info] update#setState idle
+[2022-07-07 16:46:45.640] [main] [info] update#setState checking for updates
+[2022-07-07 16:46:46.140] [main] [info] update#setState idle

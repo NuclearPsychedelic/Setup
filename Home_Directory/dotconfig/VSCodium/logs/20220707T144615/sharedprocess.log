@@ -1,0 +1,53 @@
+[2022-07-07 14:46:17.900] [sharedprocess] [info] Starting worker process with pid 11576 (type: fileWatcher, window: 1).
+[2022-07-07 14:46:32.885] [sharedprocess] [info] Getting Manifest... vscodevim.vim
+[2022-07-07 14:46:32.982] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2022-07-07 14:46:34.095] [sharedprocess] [info] Downloaded extension: vscodevim.vim /home/nick/.config/VSCodium/CachedExtensionVSIXs/vscodevim.vim-1.23.1
+[2022-07-07 14:46:34.156] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.4ed45a82-9335-4967-b73f-bcfe473e03c3: vscodevim.vim
+[2022-07-07 14:46:34.159] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/vscodevim.vim-1.23.1
+[2022-07-07 14:46:34.159] [sharedprocess] [info] Extracting completed. vscodevim.vim
+[2022-07-07 14:46:34.161] [sharedprocess] [info] Extension installed successfully: vscodevim.vim
+[2022-07-07 14:46:54.449] [sharedprocess] [info] Installing extension: ms-vscode.cpptools-extension-pack
+[2022-07-07 14:46:55.153] [sharedprocess] [info] Getting Manifest... ms-vscode.cpptools-themes
+[2022-07-07 14:46:55.580] [sharedprocess] [info] Getting Manifest... cschlosser.doxdocgen
+[2022-07-07 14:46:56.041] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2022-07-07 14:46:56.049] [sharedprocess] [info] Getting Manifest... twxs.cmake
+[2022-07-07 14:46:56.589] [sharedprocess] [info] Getting Manifest... ms-vscode.cmake-tools
+[2022-07-07 14:46:57.536] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.e754a5ad-47d4-4820-b5f4-8de572e84346: ms-vscode.cpptools
+[2022-07-07 14:46:57.540] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/ms-vscode.cpptools-1.9.7
+[2022-07-07 14:46:57.546] [sharedprocess] [info] Extracting completed. ms-vscode.cpptools
+[2022-07-07 14:46:57.548] [sharedprocess] [info] Extension installed successfully: ms-vscode.cpptools
+[2022-07-07 14:46:57.772] [sharedprocess] [info] Installing extension: ms-vscode.cpptools-themes
+[2022-07-07 14:46:57.772] [sharedprocess] [info] Installing extension: cschlosser.doxdocgen
+[2022-07-07 14:46:57.772] [sharedprocess] [info] Installing extension: twxs.cmake
+[2022-07-07 14:46:57.772] [sharedprocess] [info] Installing extension: ms-vscode.cmake-tools
+[2022-07-07 14:46:57.886] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools-themes /home/nick/.config/VSCodium/CachedExtensionVSIXs/ms-vscode.cpptools-themes-1.0.0
+[2022-07-07 14:46:57.886] [sharedprocess] [info] Downloaded extension: twxs.cmake /home/nick/.config/VSCodium/CachedExtensionVSIXs/twxs.cmake-0.0.17
+[2022-07-07 14:46:57.886] [sharedprocess] [info] Downloaded extension: cschlosser.doxdocgen /home/nick/.config/VSCodium/CachedExtensionVSIXs/cschlosser.doxdocgen-1.4.0
+[2022-07-07 14:46:57.895] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.fb893d90-ece4-4243-8783-c59e89d94012: ms-vscode.cpptools-themes
+[2022-07-07 14:46:57.897] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/ms-vscode.cpptools-themes-1.0.0
+[2022-07-07 14:46:57.898] [sharedprocess] [info] Extracting completed. ms-vscode.cpptools-themes
+[2022-07-07 14:46:57.974] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.7eedf127-efea-4c3b-8946-76f00d213292: twxs.cmake
+[2022-07-07 14:46:57.976] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/twxs.cmake-0.0.17
+[2022-07-07 14:46:57.977] [sharedprocess] [info] Extracting completed. twxs.cmake
+[2022-07-07 14:46:57.999] [sharedprocess] [info] Installing extension: danielpinto8zz6.c-cpp-compile-run
+[2022-07-07 14:46:58.317] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.dad48c50-2fad-4bee-a9ac-44402179d269: cschlosser.doxdocgen
+[2022-07-07 14:46:58.319] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/cschlosser.doxdocgen-1.4.0
+[2022-07-07 14:46:58.320] [sharedprocess] [info] Extracting completed. cschlosser.doxdocgen
+[2022-07-07 14:46:58.459] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.3324d3e6-a52a-4f09-85d6-05c72dbc7a94: danielpinto8zz6.c-cpp-compile-run
+[2022-07-07 14:46:58.461] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/danielpinto8zz6.c-cpp-compile-run-1.0.15
+[2022-07-07 14:46:58.462] [sharedprocess] [info] Extracting completed. danielpinto8zz6.c-cpp-compile-run
+[2022-07-07 14:46:58.462] [sharedprocess] [info] Extension installed successfully: danielpinto8zz6.c-cpp-compile-run
+[2022-07-07 14:46:59.073] [sharedprocess] [info] Downloaded extension: ms-vscode.cmake-tools /home/nick/.config/VSCodium/CachedExtensionVSIXs/ms-vscode.cmake-tools-1.11.26
+[2022-07-07 14:46:59.123] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.fc375daf-2f8d-4781-8563-0c5c9331091f: ms-vscode.cmake-tools
+[2022-07-07 14:46:59.126] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/ms-vscode.cmake-tools-1.11.26
+[2022-07-07 14:46:59.129] [sharedprocess] [info] Extracting completed. ms-vscode.cmake-tools
+[2022-07-07 14:46:59.481] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.a46e9195-b2aa-45e8-b8e3-6bc929588424: ms-vscode.cpptools-extension-pack
+[2022-07-07 14:46:59.483] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/ms-vscode.cpptools-extension-pack-1.1.0
+[2022-07-07 14:46:59.484] [sharedprocess] [info] Extracting completed. ms-vscode.cpptools-extension-pack
+[2022-07-07 14:46:59.484] [sharedprocess] [info] Extension installed successfully: ms-vscode.cpptools-themes
+[2022-07-07 14:46:59.485] [sharedprocess] [info] Extension installed successfully: twxs.cmake
+[2022-07-07 14:46:59.485] [sharedprocess] [info] Extension installed successfully: cschlosser.doxdocgen
+[2022-07-07 14:46:59.485] [sharedprocess] [info] Extension installed successfully: ms-vscode.cmake-tools
+[2022-07-07 14:46:59.485] [sharedprocess] [info] Extension installed successfully: ms-vscode.cpptools-extension-pack
+[2022-07-07 14:50:28.413] [sharedprocess] [info] Worker process with pid 11576 terminated normally (type: fileWatcher, window: 1).
+[2022-07-07 14:50:29.176] [sharedprocess] [info] Starting worker process with pid 12273 (type: fileWatcher, window: 1).

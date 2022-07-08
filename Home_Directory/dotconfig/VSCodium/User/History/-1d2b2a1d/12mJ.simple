@@ -1,0 +1,1 @@
+if [[ $(xrandr -q 'DP-0 connected') ]]; then xrandr --output DP-0 --primary --mode 1920x1080 --refresh 144 --rotate normal --output eDP-1-1 --mode 1920x1080 --refresh 144 --right-of DP-0 --rotate normal

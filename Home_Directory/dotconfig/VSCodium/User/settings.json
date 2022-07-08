@@ -1,0 +1,15 @@
+{
+    "clangd.path": "/home/nick/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/13.0.0/clangd_13.0.0/bin/clangd",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.autoClosingOvertype": "always",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 1,
+    "keyboard.dispatch": "keyCode"
+}
