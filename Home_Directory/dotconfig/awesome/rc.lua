@@ -474,8 +474,8 @@ globalkeys = gears.table.join(
 
     --Browser
     awful.key({ modkey },            "b",     function ()
-        awful.util.spawn("librewolf") end,
-                  {description = "Open a browser (Librewolf)", group = "launcher"}),
+        awful.util.spawn("brave-browser") end,
+                  {description = "Open a browser (Brave)", group = "launcher"}),
 
     -- VsCodium
     awful.key({ modkey },            "v",     function ()
@@ -901,7 +901,7 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 awful.spawn.with_shell("picom &")
 
 --Wallpaper utility (nitrogen):
-awful.spawn.with_shell("nitrogen --restore --set-zoom-fill &")
+--awful.spawn.with_shell("nitrogen --restore --set-zoom-fill &")
 
 --Keyboard layout (with Xmodmap):
 awful.spawn.with_shell("[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap")
@@ -916,3 +916,4 @@ awful.spawn.with_shell("/usr/libexec/polkit-gnome-authentication-agent-1")
 
 --awful.spawn.with_shell("cd ~/.config/awesome && chmod +x dualmonitor.sh && ./dualmonitor.sh")
 --awful.spawn.with_shell("xrandr --output eDP-1 --mode 1920x1080 --rotate normal --output HDMI-1 --primary --mode 1920x1080 --rotate normal --left-of eDP-1")
+--a couple of late nights listening to disco music at home and a couple of margaritas on the 
