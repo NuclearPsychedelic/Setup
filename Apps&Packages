@@ -1,3 +1,5 @@
+RPM packages:
+
 aajohan-comfortaa-fonts-0:3.101-4.fc36.noarch
 akmod-nvidia-3:515.57-1.fc36.x86_64
 akmods-0:0.5.7-8.fc36.noarch
@@ -116,3 +118,35 @@ xrandr-0:1.5.1-4.fc36.x86_64
 zlib-devel-0:1.2.11-31.fc36.x86_64
 zsh-0:5.8.1-1.fc36.x86_64
 zsh-syntax-highlighting-0:0.7.1-5.fc36.noarch
+
+Flatpaks:
+
+Discord                com.discordapp.Discord                      0.0.18                 stable   system
+Skype                  com.skype.Client                            8.86.0.407             stable   system
+Spotify                com.spotify.Client                          1.1.84.716.gc5f8b819   stable   system
+Element                im.riot.Riot                                1.11.0                 stable   system
+Freedesktop Platform   org.freedesktop.Platform                    20.08.19               20.08    system
+Freedesktop Platform   org.freedesktop.Platform                    21.08.14               21.08    system
+Mesa                   org.freedesktop.Platform.GL.default         21.1.8                 20.08    system
+Mesa                   org.freedesktop.Platform.GL.default         21.3.8                 21.08    system
+nvidia-515-57          org.freedesktop.Platform.GL.nvidia-515-57                          1.4      system
+Intel                  org.freedesktop.Platform.VAAPI.Intel                               20.08    system
+Intel                  org.freedesktop.Platform.VAAPI.Intel                               21.08    system
+openh264               org.freedesktop.Platform.openh264           2.1.0                  2.0      system
+nuclear music player   org.js.nuclear.Nuclear                      3f9007                 stable   system
+Zoom                   us.zoom.Zoom                                5.11.3.3882            stable   system
+
+Appimages:
+Ledger Live
+Session
+Via
+deemix-gui
+
+Codium extensions:
+C/C++
+C/C++ Compile Run
+C/C++ Extension Pack
+C/C++ Themes
+CMake
+CMake Tools
+Vim
