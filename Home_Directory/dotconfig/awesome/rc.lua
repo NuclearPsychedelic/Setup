@@ -90,13 +90,6 @@ awful.layout.layouts = {
 }
 -- }}}
 
---Autoconfigure screens for my personal setup
-awful.spawn.with_shell("xrandr --output eDP-1-1 --mode 1920x1080 --refresh 144 --rotate normal &")
---awful.spawn.with_shell("cd ~/.config/awesome && chmod +x dualmonitorDisplayPort.sh && ./dualmonitorDisplayPort.sh &")
-awful.spawn.with_shell("cd ~/.config/awesome && chmod +x dualmonitorHDMI.sh && ./dualmonitorHDMI.sh &")
-
-
-
 -- {{{ Menu
 -- Create a launcher widget and a main menu
 myawesomemenu = {
@@ -417,13 +410,13 @@ globalkeys = gears.table.join(
 --]]
 
     -- Master and stack manipulation
-    awful.key({ modkey, }, "n",     function () awful.tag.incnmaster( 1, nil, true) end,
+    awful.key({ modkey, }, ".",     function () awful.tag.incnmaster( 1, nil, true) end,
               {description = "increase the number of master clients", group = "layout"}),
-    awful.key({ modkey, "Shift"   }, "n",     function () awful.tag.incnmaster(-1, nil, true) end,
+    awful.key({ modkey, "Shift"   }, ".",     function () awful.tag.incnmaster(-1, nil, true) end,
               {description = "decrease the number of master clients", group = "layout"}),
-    awful.key({ modkey, }, "o",     function () awful.tag.incncol( 1, nil, true)    end,
+    awful.key({ modkey, }, "/",     function () awful.tag.incncol( 1, nil, true)    end,
               {description = "increase the number of columns", group = "layout"}),
-    awful.key({ modkey, "Shift" }, "o",     function () awful.tag.incncol(-1, nil, true)    end,
+    awful.key({ modkey, "Shift" }, "/",     function () awful.tag.incncol(-1, nil, true)    end,
               {description = "decrease the number of columns", group = "layout"}),
 
     awful.key({ modkey, }, "c",
@@ -439,9 +432,6 @@ globalkeys = gears.table.join(
               {description = "restore minimized", group = "client"}),
 
     -- Run Prompt
-              --Example below, default
-    --awful.key({ modkey },            "r",     function () awful.screen.focused().mypromptbox:run() end,
-    --          {description = "run prompt", group = "launcher"}),
 
     awful.key({ modkey },            "space",     function ()
     awful.util.spawn("rofi -show drun") end,
@@ -594,7 +584,7 @@ clientkeys = gears.table.join(
         {description = "toggle fullscreen", group = "client"}),
     awful.key({ modkey, "Shift"   }, "x",      function (c) c:kill()                         end,
               {description = "close", group = "client"}),
-    awful.key({ modkey, "Control" }, "space",  awful.client.floating.toggle                     ,
+    awful.key({ modkey,  }, ",",  awful.client.floating.toggle                     ,
               {description = "toggle floating", group = "client"}),
     awful.key({ modkey, "Control" }, "Return", function (c) c:swap(awful.client.getmaster()) end,
               {description = "move to master", group = "client"}),
@@ -793,7 +783,9 @@ awful.rules.rules = {
           "Tor Browser", -- Needs a fixed window size to avoid fingerprinting by screen size.
           "Wpa_gui",
           "veromix",
-          "xtightvncviewer"},
+          "xtightvncviewer",
+          "eog"
+        },
 
         -- Note that the name property shown in xprop might be set slightly after creation of the client
         -- and the name shown there might not match defined rules here.
@@ -813,8 +805,8 @@ awful.rules.rules = {
     --},
 
     -- Set Firefox to always map on the tag named "2" on screen 1.
-    -- { rule = { class = "Firefox" },
-    --   properties = { screen = 1, tag = "2" } },
+    --{ rule = { class = "Firefox" },
+    --properties = { screen = 1, tag = "2" } },
 }
 -- }}}
 
@@ -882,38 +874,28 @@ client.connect_signal("focus", function(c) c.border_color = beautiful.border_foc
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
 
---Gaps
-
-
 --Autostart apps
 
 --Template:
 --awful.spawn.with_shell("")
---awful.spawn.with_shell("xrandr --output DP-0 --primary --mode 1920x1080 --refresh 144 --rotate normal --output eDP-1-1 --mode 1920x1080 --refresh 144 --rotate normal --right-of DP-0")
---Automatic monitor setting:
---awful.spawn.with_shell("cd ~/.config/awesome/ && chmod +x dualmonitor.simple && ./dualmonitor.simple")
---awful.spawn.with_shell("if [[ $(xrandr -q | grep 'DP-0 connected') ]]; then xrandr --output DP-0 --primary --mode 1920x1080 --refresh 144 --rotate normal --output eDP-1-1 --mode 1920x1080 --refresh 144 --right-of DP-0 --rotate normal fi")
---awful.spawn.with_shell("cd ~/.config/awesome && chmod +x dualmonitorDisplayPort.sh && ./dualmonitorDisplayPort.sh &")
---awful.spawn.with_shell("xrandr --output eDP-1-1 --mode 1920x1080 --refresh 144 --rotate normal &")
---awful.spawn.with_shell("cd ~/.config/awesome && chmod +x dualmonitorDisplayPort.sh && ./dualmonitorDisplayPort.sh &")
 
 --Compositor (picom):
-awful.spawn.with_shell("picom &")
+awful.spawn.with_shell(" pkill picom; picom &")
 
 --Wallpaper utility (nitrogen):
 --awful.spawn.with_shell("nitrogen --restore --set-zoom-fill &")
+awful.spawn.with_shell("pkill nitrogen; pkill nitrogen; nitrogen --set-zoom-fill ~/Pictures/Wallpapers/blue.jpg --head=0 &; nitrogen --set-zoom-fill ~/Pictures/Wallpapers/blue.jpg --head=1;")
+
 
 --Keyboard layout (with Xmodmap):
 awful.spawn.with_shell("[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap")
 
 --Internet connection tray applet (nm-applet):
-awful.spawn.with_shell("nm-applet &")
+awful.spawn.with_shell("pkill nm-applet; nm-applet &")
 
 --Authentication agent(gnome-polkit):
-awful.spawn.with_shell("/usr/libexec/polkit-gnome-authentication-agent-1")
---Displayport dual monitor command
---xrandr --output eDP-1-1 --mode 1920x1080 --refresh 144 --rotate normal --output DP-0 --mode 1920x1080 --refresh 144 --rotate normal --left-of eDP-1-1
+awful.spawn.with_shell("pkill /usr/libexec/polkit-gnome-authentication-agent-1; /usr/libexec/polkit-gnome-authentication-agent-1 &")
 
---awful.spawn.with_shell("cd ~/.config/awesome && chmod +x dualmonitor.sh && ./dualmonitor.sh")
---awful.spawn.with_shell("xrandr --output eDP-1 --mode 1920x1080 --rotate normal --output HDMI-1 --primary --mode 1920x1080 --rotate normal --left-of eDP-1")
---a couple of late nights listening to disco music at home and a couple of margaritas on the 
+--Autoconfigure screens for my personal setup
+--awful.spawn.with_shell("cd ~/.config/awesome && chmod +x dualmonitorDisplayPort.sh && ./dualmonitorDisplayPort.sh &")
+awful.spawn.with_shell("pkill dualmonitorHDMI; cd ~/.config/awesome; ./dualmonitorHDMI.sh &")
