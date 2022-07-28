@@ -1,1 +1,1 @@
-{"version":"1.0","registers":[["%",[{"text":"","registerMode":0}]],["*",[{"text":"2\nabcdxyz\n","registerMode":0}]]]}
+{"version":"1.0","registers":[["%",[{"text":"rc.lua","registerMode":0}]],["*",[{"text":"2\nabcdxyz\n","registerMode":0}]],["#",[{"text":"rc.lua","registerMode":0}]],["\"",[{"registerMode":1,"text":"    nitrogen --set-zoom-fill ~/Pictures/Wallpapers/blue.jpg --head=0"}]],["1",[{"text":"    nitrogen --set-zoom-fill ~/Pictures/Wallpapers/blue.jpg --head=0","registerMode":1}]]]}

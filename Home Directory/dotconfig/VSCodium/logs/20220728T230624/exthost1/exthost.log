@@ -1,0 +1,18 @@
+[2022-07-28 23:06:26.199] [exthost] [info] Extension host with pid 102034 started
+[2022-07-28 23:06:26.199] [exthost] [info] Skipping acquiring lock for /home/nick/.config/VSCodium/User/workspaceStorage/69fda865fb354ebd4b1aab302cfdd388.
+[2022-07-28 23:06:26.237] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-28 23:06:26.239] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-28 23:06:26.240] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-28 23:06:26.243] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2022-07-28 23:06:26.317] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-28 23:06:26.340] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-28 23:06:26.372] [exthost] [info] Eager extensions activated
+[2022-07-28 23:06:26.393] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-28 23:06:26.398] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-28 23:12:05.855] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-28 23:12:05.856] [exthost] [warning] TextEditor is closed/disposed
+[2022-07-28 23:12:05.865] [exthost] [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+[2022-07-28 23:12:05.865] [exthost] [warning] {"name":"DISPOSED","message":"TextEditor(vs.editor.ICodeEditor:1,$model8) has been disposed"}
+[2022-07-28 23:12:26.907] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-28 23:12:26.911] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-28 23:12:26.924] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'

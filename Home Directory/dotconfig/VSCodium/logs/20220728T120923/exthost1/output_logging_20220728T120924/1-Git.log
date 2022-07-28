@@ -1,0 +1,25 @@
+[2022-07-28T09:09:24.552Z] Log level: Info
+[2022-07-28T09:09:24.552Z] [info] Validating found git in: git
+[2022-07-28T09:09:24.561Z] [info] Using git 2.37.1 from git
+[2022-07-28T09:09:24.569Z] > git rev-parse --show-toplevel [2ms]
+[2022-07-28T09:09:24.574Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-07-28T09:09:24.577Z] [info] Open repository: /home/nick/.config/awesome
+[2022-07-28T09:09:24.582Z] > git status -z -uall [1ms]
+[2022-07-28T09:09:24.586Z] > git symbolic-ref --short HEAD [1ms]
+[2022-07-28T09:09:24.589Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-07-28T09:09:24.595Z] > git remote --verbose [1ms]
+[2022-07-28T09:09:24.595Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+[2022-07-28T09:09:24.602Z] > git config --get commit.template [1ms]
+[2022-07-28T09:09:24.607Z] > git status -z -uall [1ms]
+[2022-07-28T09:09:24.610Z] > git symbolic-ref --short HEAD [1ms]
+[2022-07-28T09:09:24.620Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+[2022-07-28T09:09:24.626Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+[2022-07-28T09:09:24.626Z] > git remote --verbose [1ms]
+[2022-07-28T09:09:24.630Z] > git config --get commit.template [0ms]
+[2022-07-28T09:09:24.929Z] > git show --textconv :rc.lua [4ms]
+[2022-07-28T09:09:24.930Z] > git ls-files --stage -- /home/nick/.config/awesome/rc.lua [2ms]
+[2022-07-28T09:09:24.934Z] > git cat-file -s e8a0914c0e6cbd66005d470fad58686a6e774474 [1ms]
+[2022-07-28T09:09:25.156Z] > git check-ignore -v -z --stdin [1ms]
+[2022-07-28T09:11:55.458Z] > git show --textconv :rc.lua [2ms]
+[2022-07-28T09:11:55.459Z] > git ls-files --stage -- /home/nick/.config/awesome/rc.lua [1ms]
+[2022-07-28T09:11:55.461Z] > git cat-file -s e8a0914c0e6cbd66005d470fad58686a6e774474 [1ms]

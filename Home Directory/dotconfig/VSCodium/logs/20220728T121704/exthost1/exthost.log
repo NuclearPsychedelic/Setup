@@ -1,0 +1,29 @@
+[2022-07-28 12:17:06.310] [exthost] [info] Extension host with pid 11083 started
+[2022-07-28 12:17:06.310] [exthost] [info] Skipping acquiring lock for /home/nick/.config/VSCodium/User/workspaceStorage/69fda865fb354ebd4b1aab302cfdd388.
+[2022-07-28 12:17:06.356] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-28 12:17:06.358] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-28 12:17:06.359] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-28 12:17:06.361] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2022-07-28 12:17:06.476] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-28 12:17:06.491] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-28 12:17:06.519] [exthost] [info] Eager extensions activated
+[2022-07-28 12:17:06.536] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-28 12:17:06.540] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-28 12:20:06.117] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-07-28 12:33:02.456] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-28 12:33:02.458] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-28 12:33:02.469] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-28 13:46:52.889] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-28 13:46:53.109] [exthost] [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 't'
+    |     property '_readableState' -> object with constructor 'M'
+    |     property 'pipes' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 't.ConsoleForElectron'
+    --- property 'parent' closes the circle
+    at JSON.stringify (<anonymous>)
+    at /home/nick/.vscode-oss/extensions/vscodevim.vim-1.23.1/src/register/register.ts:333:16
+    at process.async (node:internal/process/task_queues:96:5)
+    at Object.e.deactivate (/home/nick/.vscode-oss/extensions/vscodevim.vim-1.23.1/extension.ts:64:8)
+    at async Promise.all (index 11)
+    at v._deactivateAll (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:10669)
+[2022-07-28 13:46:53.110] [exthost] [info] Extension host with pid 11083 exiting with code 0

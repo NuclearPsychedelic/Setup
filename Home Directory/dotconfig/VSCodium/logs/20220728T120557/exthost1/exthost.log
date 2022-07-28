@@ -1,0 +1,28 @@
+[2022-07-28 12:06:02.373] [exthost] [info] Extension host with pid 5200 started
+[2022-07-28 12:06:02.373] [exthost] [info] Skipping acquiring lock for /home/nick/.config/VSCodium/User/workspaceStorage/69fda865fb354ebd4b1aab302cfdd388.
+[2022-07-28 12:06:02.434] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-28 12:06:02.436] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-28 12:06:02.437] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-28 12:06:02.439] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2022-07-28 12:06:02.522] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-28 12:06:02.538] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-28 12:06:02.561] [exthost] [info] Eager extensions activated
+[2022-07-28 12:06:02.583] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-28 12:06:02.588] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-28 12:07:04.729] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-28 12:07:04.733] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-28 12:07:04.748] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-28 12:07:12.965] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-28 12:07:12.973] [exthost] [info] Extension host with pid 5200 exiting with code 0
+[2022-07-28 12:07:14.241] [exthost] [info] Extension host with pid 5572 started
+[2022-07-28 12:07:14.241] [exthost] [info] Skipping acquiring lock for /home/nick/.config/VSCodium/User/workspaceStorage/69fda865fb354ebd4b1aab302cfdd388.
+[2022-07-28 12:07:14.318] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-28 12:07:14.320] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-28 12:07:14.321] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-28 12:07:14.345] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-28 12:07:14.357] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-28 12:07:14.388] [exthost] [info] Eager extensions activated
+[2022-07-28 12:07:14.406] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-28 12:07:14.410] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-28 12:09:22.138] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-28 12:09:22.142] [exthost] [info] Extension host with pid 5572 exiting with code 0

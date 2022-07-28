@@ -1,0 +1,7 @@
+[2022-07-28 12:05:57.641] [main] [info] update#setState idle
+[2022-07-28 12:06:01.959] [main] [info] Starting extension host with pid 5200 (fork() took 8 ms).
+[2022-07-28 12:06:27.641] [main] [info] update#setState checking for updates
+[2022-07-28 12:06:27.905] [main] [info] update#setState idle
+[2022-07-28 12:07:12.981] [main] [info] Extension host with pid 5200 exited with code: 0, signal: null.
+[2022-07-28 12:07:13.762] [main] [info] Starting extension host with pid 5572 (fork() took 7 ms).
+[2022-07-28 12:09:22.147] [main] [info] Extension host with pid 5572 exited with code: 0, signal: null.

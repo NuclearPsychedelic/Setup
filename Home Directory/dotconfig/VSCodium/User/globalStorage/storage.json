@@ -2,12 +2,16 @@
     "telemetry.machineId": "ecb5bf8a2d3a959aaf9d7aacee069e27042242d8cbb6485771583d65fd8e1715",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/nick/.config/VSCodium/Backups/1657286746072",
+            "workspaceIdentifier": {
+                "id": "69fda865fb354ebd4b1aab302cfdd388",
+                "configURIPath": "file:///home/nick/.config/VSCodium/Workspaces/1658085345765/workspace.json"
+            },
+            "backupPath": "/home/nick/.config/VSCodium/Backups/69fda865fb354ebd4b1aab302cfdd388",
             "uiState": {
                 "mode": 1,
                 "x": 12,
                 "y": 36,
-                "width": 941,
+                "width": 1896,
                 "height": 1032
             }
         },
@@ -45,17 +49,27 @@
                         "label": "Open Wor&&kspace from File..."
                     },
                     {
-                        "id": "submenuitem.36",
+                        "id": "submenuitem.37",
                         "label": "Open &&Recent",
                         "submenu": {
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/Other/Info/pbinfo/%2321%20Suma%20cifrelor",
+                                        "path": "/home/nick/Other/Info/pbinfo/#21 Suma cifrelor",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Other/Info/pbinfo/#21 Suma cifrelor"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -67,6 +81,17 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.config/awesome"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/Setup",
+                                        "path": "/home/nick/Setup",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Setup"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -146,29 +171,95 @@
                                     "label": "~/Documents/Info/Varena/5. fgetc"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/Documents/Info/Varena/4.%20Numchar",
-                                        "path": "/home/nick/Documents/Info/Varena/4. Numchar",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/Info/Varena/4. Numchar"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/Documents/Info/Varena/3.Maxnr",
-                                        "path": "/home/nick/Documents/Info/Varena/3.Maxnr",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/Info/Varena/3.Maxnr"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/.config/neofetch/config.conf",
+                                        "path": "/home/nick/.config/neofetch/config.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/neofetch/config.conf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/.config/awesome/rc.lua",
+                                        "path": "/home/nick/.config/awesome/rc.lua",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/awesome/rc.lua"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/aux/Setup/Package_list",
+                                        "path": "/home/nick/aux/Setup/Package_list",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/aux/Setup/Package_list"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/Setup/Home_Directory/.Xmodmap",
+                                        "path": "/home/nick/Setup/Home_Directory/.Xmodmap",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Setup/Home_Directory/.Xmodmap"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/projects/dotfiles/.xinitrc",
+                                        "path": "/home/nick/projects/dotfiles/.xinitrc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/dotfiles/.xinitrc"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/.Xmodmap",
+                                        "path": "/home/nick/.Xmodmap",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.Xmodmap"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/projects/dotfiles/.Xmodmap",
+                                        "path": "/home/nick/projects/dotfiles/.Xmodmap",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/projects/dotfiles/.Xmodmap"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/Setup/README.md",
+                                        "path": "/home/nick/Setup/README.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Setup/README.md"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -191,94 +282,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.gitconfig"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/.config/awesome/dualmonitorDisplayPort.sh",
-                                        "path": "/home/nick/.config/awesome/dualmonitorDisplayPort.sh",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/awesome/dualmonitorDisplayPort.sh"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/.config/rofi/config.rasi",
-                                        "path": "/home/nick/.config/rofi/config.rasi",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/rofi/config.rasi"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/.config/awesome/rc.lua",
-                                        "path": "/home/nick/.config/awesome/rc.lua",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/awesome/rc.lua"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/Documents/Info/Varena/8.%20cuvinte/cuvinte.out",
-                                        "path": "/home/nick/Documents/Info/Varena/8. cuvinte/cuvinte.out",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/Info/Varena/8. cuvinte/cuvinte.out"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/Documents/Info/Varena/antiterradebug/grader_test1.in",
-                                        "path": "/home/nick/Documents/Info/Varena/antiterradebug/grader_test1.in",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/Info/Varena/antiterradebug/grader_test1.in"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/Documents/Info/Varena/antiterradebug/grader_test1.ok",
-                                        "path": "/home/nick/Documents/Info/Varena/antiterradebug/grader_test1.ok",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/Info/Varena/antiterradebug/grader_test1.ok"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/Reinstall/Dotfiles/Stable/config/sxhkd/sxhkdrc",
-                                        "path": "/home/nick/Reinstall/Dotfiles/Stable/config/sxhkd/sxhkdrc",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Reinstall/Dotfiles/Stable/config/sxhkd/sxhkdrc"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///run/media/nick/Samsung%20Bar/1_Nicolas/Reinstall/Dotfiles/Fedora/homenick/.config/awesome/theme.lua",
-                                        "path": "/run/media/nick/Samsung Bar/1_Nicolas/Reinstall/Dotfiles/Fedora/homenick/.config/awesome/theme.lua",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/run/media/nick/Samsung Bar/1_Nicolas/Reinstall/Dotfiles/Fedora/homenick/.config/awesome/theme.lua"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -332,11 +335,26 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
+                        "id": "submenuitem.39",
+                        "label": "Share",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
                         "id": "workbench.action.toggleAutoSave",
                         "label": "A&&uto Save"
                     },
                     {
-                        "id": "submenuitem.35",
+                        "id": "submenuitem.36",
                         "label": "&&Preferences",
                         "submenu": {
                             "items": [
@@ -402,6 +420,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Workspace"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -571,7 +593,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.24",
+                        "id": "submenuitem.25",
                         "label": "&&Appearance",
                         "submenu": {
                             "items": [
@@ -597,7 +619,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Primary Side Bar"
+                                    "label": "Show &&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -625,7 +648,7 @@
                                     "label": "&&Move Primary Side Bar Right"
                                 },
                                 {
-                                    "id": "submenuitem.34",
+                                    "id": "submenuitem.35",
                                     "label": "Panel Position",
                                     "submenu": {
                                         "items": [
@@ -646,7 +669,7 @@
                                     }
                                 },
                                 {
-                                    "id": "submenuitem.33",
+                                    "id": "submenuitem.34",
                                     "label": "Align Panel",
                                     "submenu": {
                                         "items": [
@@ -689,7 +712,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.31",
+                        "id": "submenuitem.32",
                         "label": "Editor &&Layout",
                         "submenu": {
                             "items": [
@@ -835,8 +858,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -845,14 +867,13 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.38",
+                        "id": "submenuitem.40",
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
@@ -901,7 +922,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.39",
+                        "id": "submenuitem.41",
                         "label": "Switch &&Group",
                         "submenu": {
                             "items": [
@@ -1103,7 +1124,7 @@
                         "label": "Toggle &&Breakpoint"
                     },
                     {
-                        "id": "submenuitem.32",
+                        "id": "submenuitem.33",
                         "label": "&&New Breakpoint",
                         "submenu": {
                             "items": [
@@ -1158,8 +1179,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1351,6 +1371,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1536,8 +1561,8 @@
                 "userSettingsLabel": "alt+z"
             },
             "workbench.action.navigateBack": {
-                "label": "Ctrl+Alt+-",
-                "userSettingsLabel": "ctrl+alt+-"
+                "label": "Ctrl+Alt+Z",
+                "userSettingsLabel": "ctrl+alt+z"
             },
             "workbench.action.navigateForward": {
                 "label": "Ctrl+Shift+-",
@@ -1638,10 +1663,6 @@
                 "label": "Ctrl+Shift+\\",
                 "userSettingsLabel": "ctrl+shift+\\"
             },
-            "editor.action.marker.nextInFiles": {
-                "label": "F8",
-                "userSettingsLabel": "f8"
-            },
             "editor.action.marker.prevInFiles": {
                 "label": "Shift+F8",
                 "userSettingsLabel": "shift+f8"
@@ -1736,7 +1757,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }

@@ -1,0 +1,14 @@
+[2022-07-28 12:18:46.510] [exthost] [info] Extension host with pid 11647 started
+[2022-07-28 12:18:46.535] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-28 12:18:46.536] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-28 12:18:46.537] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-28 12:18:46.539] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2022-07-28 12:18:46.577] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-28 12:18:46.591] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-28 12:18:46.605] [exthost] [info] Eager extensions activated
+[2022-07-28 12:18:46.609] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-28 12:18:46.613] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-28 12:18:58.463] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-28 12:18:58.473] [exthost] [error] Error: read ECONNRESET
+    at Pipe.onStreamRead (node:internal/stream_base_commons:220:20)
+[2022-07-28 12:18:58.473] [exthost] [info] Extension host with pid 11647 exiting with code 0

@@ -1,0 +1,13 @@
+[2022-07-28 12:09:24.424] [exthost] [info] Extension host with pid 6353 started
+[2022-07-28 12:09:24.424] [exthost] [info] Skipping acquiring lock for /home/nick/.config/VSCodium/User/workspaceStorage/69fda865fb354ebd4b1aab302cfdd388.
+[2022-07-28 12:09:24.471] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-28 12:09:24.473] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-28 12:09:24.474] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-28 12:09:24.526] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-28 12:09:24.539] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-28 12:09:24.568] [exthost] [info] Eager extensions activated
+[2022-07-28 12:09:24.615] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-28 12:09:24.619] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-28 12:12:18.645] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: '*'
+[2022-07-28 12:17:04.127] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-28 12:17:04.139] [exthost] [info] Extension host with pid 6353 exiting with code 0

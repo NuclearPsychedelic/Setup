@@ -1,0 +1,22 @@
+[2022-07-28T12:39:01.178Z] Log level: Info
+[2022-07-28T12:39:01.179Z] [info] Validating found git in: git
+[2022-07-28T12:39:01.189Z] [info] Using git 2.37.1 from git
+[2022-07-28T12:39:01.200Z] > git rev-parse --show-toplevel [2ms]
+[2022-07-28T12:39:01.204Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-07-28T12:39:01.207Z] [info] Open repository: /home/nick/.config/awesome
+[2022-07-28T12:39:01.213Z] > git status -z -uall [1ms]
+[2022-07-28T12:39:01.215Z] > git symbolic-ref --short HEAD [0ms]
+[2022-07-28T12:39:01.218Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+[2022-07-28T12:39:01.223Z] > git remote --verbose [0ms]
+[2022-07-28T12:39:01.224Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+[2022-07-28T12:39:01.228Z] > git config --get commit.template [0ms]
+[2022-07-28T12:39:01.247Z] > git status -z -uall [16ms]
+[2022-07-28T12:39:01.259Z] > git symbolic-ref --short HEAD [9ms]
+[2022-07-28T12:39:01.263Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-07-28T12:39:01.267Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+[2022-07-28T12:39:01.267Z] > git remote --verbose [0ms]
+[2022-07-28T12:39:01.271Z] > git config --get commit.template [1ms]
+[2022-07-28T12:39:01.524Z] > git show --textconv :rc.lua [3ms]
+[2022-07-28T12:39:01.525Z] > git ls-files --stage -- /home/nick/.config/awesome/rc.lua [1ms]
+[2022-07-28T12:39:01.528Z] > git cat-file -s 25ba68e77ff0092f5a7b7cafe2b683d7608d2090 [1ms]
+[2022-07-28T12:39:01.760Z] > git check-ignore -v -z --stdin [1ms]

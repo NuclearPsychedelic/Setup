@@ -1,0 +1,9 @@
+[2022-07-28 12:17:06.312] [sharedprocess] [info] Deleted from disk pmndrs.pmndrs /home/nick/.vscode-oss/extensions/pmndrs.pmndrs-0.3.2
+[2022-07-28 12:17:06.350] [sharedprocess] [info] Starting worker process with pid 11139 (type: fileWatcher, window: 1).
+[2022-07-28 12:18:46.215] [sharedprocess] [info] Starting worker process with pid 11646 (type: fileWatcher, window: 3).
+[2022-07-28 12:18:58.475] [sharedprocess] [info] Worker process with pid 11646 terminated normally (type: fileWatcher, window: 3).
+[2022-07-28 12:26:00.316] [sharedprocess] [info] Installing extension: pmndrs.pmndrs
+[2022-07-28 12:31:01.270] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.e4de8da8-a0de-4058-83a1-27f37469d04a: pmndrs.pmndrs
+[2022-07-28 12:31:01.273] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/pmndrs.pmndrs-0.3.2
+[2022-07-28 12:31:01.274] [sharedprocess] [info] Extracting completed. pmndrs.pmndrs
+[2022-07-28 12:31:01.275] [sharedprocess] [info] Extension installed successfully: pmndrs.pmndrs

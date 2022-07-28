@@ -1,0 +1,2 @@
+[2022-07-28 15:39:05.307] [ptyhost] [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+[2022-07-28 15:39:05.320] [ptyhost] [info] Persistent process "1": Replaying 2344 chars and 1 size events
