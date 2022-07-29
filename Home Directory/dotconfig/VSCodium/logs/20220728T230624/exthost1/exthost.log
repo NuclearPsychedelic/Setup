@@ -16,3 +16,17 @@
 [2022-07-28 23:12:26.907] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
 [2022-07-28 23:12:26.911] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 [2022-07-28 23:12:26.924] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-28 23:27:50.712] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-28 23:27:50.920] [exthost] [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 't'
+    |     property '_readableState' -> object with constructor 'M'
+    |     property 'pipes' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 't.ConsoleForElectron'
+    --- property 'parent' closes the circle
+    at JSON.stringify (<anonymous>)
+    at /home/nick/.vscode-oss/extensions/vscodevim.vim-1.23.1/src/register/register.ts:333:16
+    at process.async (node:internal/process/task_queues:96:5)
+    at Object.e.deactivate (/home/nick/.vscode-oss/extensions/vscodevim.vim-1.23.1/extension.ts:64:8)
+    at async Promise.all (index 10)
+    at v._deactivateAll (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:10669)
+[2022-07-28 23:27:50.921] [exthost] [info] Extension host with pid 102034 exiting with code 0

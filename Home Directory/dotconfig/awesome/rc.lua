@@ -58,7 +58,7 @@ awful.mouse.snap.edge_enabled = true
 
 -- This is used later as the default terminal and editor to run.
 terminal = "kitty"
-editor = os.getenv("codium") or "vim"
+editor = os.getenv("codium") or "nvim"
 editor_cmd = terminal .. " -e " .. editor
 
 -- Default modkey.
@@ -274,9 +274,9 @@ globalkeys = gears.table.join(
 globalkeys = gears.table.join(
     awful.key({ modkey,           }, "s",      hotkeys_popup.show_help,
               {description="show help", group="awesome"}),
-    awful.key({ modkey,           }, "[",   awful.tag.viewprev,
+    awful.key({ modkey,           }, ";",   awful.tag.viewprev,
               {description = "view previous", group = "tag"}),
-    awful.key({ modkey,           }, "]",  awful.tag.viewnext,
+    awful.key({ modkey,           }, "'",  awful.tag.viewnext,
               {description = "view next", group = "tag"}),
     --awful.key({ modkey,           }, "Tab", awful.tag.history.restore,
     --          {description = "go back", group = "tag"}),
@@ -338,14 +338,14 @@ globalkeys = gears.table.join(
     awful.key({ modkey, "Shift"   }, "k", function () awful.client.swap.byidx( -1)    end,
               {description = "swap with previous client by index", group = "client"}),
               ]]--
-    awful.key({ modkey, }, "'", function () awful.screen.focus_relative( 1) end,
+    awful.key({ modkey, }, "]", function () awful.screen.focus_relative( 1) end,
               {description = "focus the next screen", group = "screen"}),
-    awful.key({ modkey, }, ";", function () awful.screen.focus_relative(-1) end,
+    awful.key({ modkey, }, "[", function () awful.screen.focus_relative(-1) end,
               {description = "focus the previous screen", group = "screen"}),
     awful.key({ modkey,           }, "u", awful.client.urgent.jumpto,
               {description = "jump to urgent client", group = "client"}),
 
-    awful.key({ modkey, "Shift" }, "]", function()
+    awful.key({ modkey, "Shift" }, "'", function()
                 local screen = awful.screen.focused()
                 local t = screen.selected_tag
                 if t then
@@ -359,7 +359,7 @@ globalkeys = gears.table.join(
               end,
               {description = "move focused client to next tag and view tag", group = "tag"}),
           
-    awful.key({ modkey, "Shift" }, "[", function()
+    awful.key({ modkey, "Shift" }, ";", function()
                 local screen = awful.screen.focused()
                 local t = screen.selected_tag
                 if t then
@@ -502,15 +502,6 @@ globalkeys = gears.table.join(
     awful.key({ modkey }, "p", function() menubar.show() end,
               {description = "show the menubar", group = "launcher"}),
 
-    -- Reload startup apps
-    awful.key({ modkey, }, "z", function() 
-        awful.spawn.with_shell("nitrogen --restore --set-zoom-fill ~/Pictures/Wallpapers & && picom & && [[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap &") 
-        end),
-    -- Reload keyboard default
-    awful.key({ modkey, "Shift", }, "z", function() 
-        awful.spawn.with_shell("setxkbmap") 
-        end),
-    
     -- Manually set up monitors
     -- dual monitors:
     awful.key({ modkey, modkey2, }, "m", function() 
@@ -588,9 +579,9 @@ clientkeys = gears.table.join(
               {description = "toggle floating", group = "client"}),
     awful.key({ modkey, "Control" }, "Return", function (c) c:swap(awful.client.getmaster()) end,
               {description = "move to master", group = "client"}),
-    awful.key({ modkey, "Shift" }, ";",      function (c) c:move_to_screen()               end,
+    awful.key({ modkey, "Shift" }, "[",      function (c) c:move_to_screen()               end,
               {description = "move to screen", group = "client"}),
-    awful.key({ modkey, "Shift" }, "'",      function (c) c:move_to_screen()               end,
+    awful.key({ modkey, "Shift" }, "]",      function (c) c:move_to_screen()               end,
               {description = "move to screen", group = "client"}),
     awful.key({ modkey,           }, "t",      function (c) c.ontop = not c.ontop            end,
               {description = "toggle keep on top", group = "client"}),
@@ -882,11 +873,6 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 --Compositor (picom):
 awful.spawn.with_shell(" pkill picom; picom &")
 
---Wallpaper utility (nitrogen):
---awful.spawn.with_shell("nitrogen --restore --set-zoom-fill &")
-awful.spawn.with_shell("pkill nitrogen; pkill nitrogen; nitrogen --set-zoom-fill ~/Pictures/Wallpapers/blue.jpg --head=0 &; nitrogen --set-zoom-fill ~/Pictures/Wallpapers/blue.jpg --head=1;")
-
-
 --Keyboard layout (with Xmodmap):
 awful.spawn.with_shell("[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap")
 
@@ -894,7 +880,7 @@ awful.spawn.with_shell("[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap")
 awful.spawn.with_shell("pkill nm-applet; nm-applet &")
 
 --Authentication agent(gnome-polkit):
-awful.spawn.with_shell("pkill /usr/libexec/polkit-gnome-authentication-agent-1; /usr/libexec/polkit-gnome-authentication-agent-1 &")
+awful.spawn.with_shell(" /usr/libexec/polkit-gnome-authentication-agent-1 &")
 
 --Autoconfigure screens for my personal setup
 --awful.spawn.with_shell("cd ~/.config/awesome && chmod +x dualmonitorDisplayPort.sh && ./dualmonitorDisplayPort.sh &")
